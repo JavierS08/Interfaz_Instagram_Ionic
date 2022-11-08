@@ -1,0 +1,17 @@
+.insta{
+    color: rgb(202, 36, 224);
+}
+
+ion-toggle{
+    --handle-background-checked: var(--ion-color-danger);
+    --background-checked: var(--ion-color-success);
+    --background: var(--ion-color-warning);
+    --handle-background:var(--ion-color-primary);
+}
+ion-note{
+    font-size: large;
+}
+#planet{
+    display: flex;
+    justify-content: space-evenly !important;
+}

@@ -1,0 +1,89 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      Tab 1
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+<ion-fab slot="fixed" vertical="bottom" horizontal="center">
+  <ion-fab-button>
+    <ion-icon name="share"></ion-icon>
+  </ion-fab-button>
+  <ion-fab-list side="top">
+    <ion-fab-button>
+      <ion-icon name="logo-twitter" color="primary"></ion-icon>
+    </ion-fab-button>
+    <ion-fab-button>
+      <ion-icon name="logo-instagram" class="insta"></ion-icon>
+    </ion-fab-button>
+  </ion-fab-list>
+  <ion-fab-list side="start">
+    <ion-fab-button>
+      <ion-icon name="logo-youtube" color="danger"></ion-icon>
+    </ion-fab-button>
+    <ion-fab-button>
+      <ion-icon name="logo-whatsapp" color="success"></ion-icon>
+    </ion-fab-button>
+  </ion-fab-list>
+  <ion-fab-list side="end">
+    <ion-fab-button>
+      <ion-icon name="logo-twitter" color="primary"></ion-icon>
+    </ion-fab-button>
+    <ion-fab-button>
+      <ion-icon name="logo-instagram" class="insta"></ion-icon>
+    </ion-fab-button>
+  </ion-fab-list>
+</ion-fab>
+<form action="">
+  <ion-item>
+    <ion-label position="floating">Número de hijos</ion-label>
+    <ion-input type="number" clearInput=""></ion-input>
+  </ion-item>
+  <ion-item>
+    <ion-label position="stacked">Nombre</ion-label>
+    <ion-input type="text" placeholder="Pepe Flores" clearInput=""></ion-input>
+  </ion-item>
+  <ion-item>
+    <ion-label position="fixed">Email</ion-label>
+    <ion-input type="email" value="alesrin@gmail.com" clearInput=""></ion-input>
+  </ion-item>
+  <ion-item>
+    <ion-label position="floating">Password</ion-label>
+    <ion-input type="password" clearInput=""></ion-input>
+  </ion-item>
+  <ion-item>
+    <ion-label position="floating">Número de hijos</ion-label>
+    <ion-input type="number" clearInput=""></ion-input>
+  </ion-item>
+  <ion-item>
+    <ion-datetime></ion-datetime>
+  </ion-item>
+  <ion-item>
+    <ion-label>Toggle</ion-label>
+    <ion-toggle slot="start"></ion-toggle>
+  </ion-item>
+  <ion-item>
+    <ion-label>heckbox</ion-label>
+    <ion-checkbox slot="end"></ion-checkbox>
+  </ion-item>
+
+  <ion-item>
+    <div id="planet">
+    <ion-icon name="planet"></ion-icon>
+    <ion-note color="danger">Saturno</ion-note>
+  </div>
+  </ion-item>
+  <ion-item>
+    <ion-chip>
+      <ion-icon name="pin"></ion-icon>      
+      Ubicación
+    </ion-chip>
+  </ion-item>
+  <ion-item>
+    <ion-progress-bar type="determinate" value="60"></ion-progress-bar>
+  </ion-item>
+
+</form>
+</ion-content>

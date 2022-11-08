@@ -1,0 +1,7 @@
+{
+  "name": "Instagram",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}

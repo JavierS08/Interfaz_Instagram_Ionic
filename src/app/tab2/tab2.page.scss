@@ -1,0 +1,68 @@
+#logotipo{
+  font-family: FontInstagram;
+  font-size: 2rem;
+}
+
+ion-title .ios{
+  padding-left: 1rem;
+  justify-content: flex-start !important;
+  width: fit-content;
+}
+
+ion-slide{
+  justify-content: space-around !important;
+}
+
+#carac{
+  display: flex;
+  justify-content: space-between !important;
+  align-items: center;
+}
+
+#info{
+  display: flex;
+  justify-content: space-between !important;
+  margin-top: 0.3rem;
+}
+
+#carac{
+  margin-top: 1rem;
+  font-size: medium;
+}
+
+#comment{
+  display: flex;
+  justify-content: space-around !important;
+}
+
+#us ion-fab-button{
+width: 1.3rem !important;
+height: 1.3rem !important;
+}
+.comen{
+  font-size: 0.7rem;
+}
+.time{
+  font-size: 0.5rem;
+}
+
+#like{
+  display: flex;
+  align-items: center;
+  margin-bottom: 0.7rem;
+}
+
+#user{
+  display: flex;
+  justify-content: space-around !important;
+  align-items: center;
+}
+
+.nombre{
+  color: white;
+}
+
+img{
+  height: 100% !important;
+  width: 100% !important;
+}
